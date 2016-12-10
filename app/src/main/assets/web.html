@@ -1,0 +1,27 @@
+<html>
+<body>
+<input type="button" value="点击" onClick="sum()"/>
+<input type="button" value="toastMessage" onClick="ok()"/>
+<script type="text/javascript">
+
+function sum(){
+ var result = 15;
+ //document.getElementById("h").innerHTML= result;
+aaa.onSumResult(result)
+}
+function ok() {
+ aaa.toastMessage("i m webview msg");
+}
+
+function sum(i,m){
+ var result = i+m;
+ //document.getElementById("h").innerHTML= result;
+//aaa.onSumResult(result)
+ aaa.toastMessage(result);
+}
+
+
+
+</script>
+</body>
+</html> 
