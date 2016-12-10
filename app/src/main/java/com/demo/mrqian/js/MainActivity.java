@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mWv = (WebView) findViewById(R.id.wv);
         mBtn = (Button) findViewById(R.id.btn);
+        
         mBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
