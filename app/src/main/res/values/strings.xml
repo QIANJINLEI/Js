@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Js</string>
     <string name="js">你好js</string>
+    <string name="hello">你好坏</string>
 </resources>

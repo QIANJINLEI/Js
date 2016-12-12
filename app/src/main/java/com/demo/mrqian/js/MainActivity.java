@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     private WebView mWv;
     private Button mBtn;
+    private Button mBtn1;
     private LocationManager lm;
     private WebSettings settings;
 
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mWv = (WebView) findViewById(R.id.wv);
         mBtn = (Button) findViewById(R.id.btn);
+        mBtn1 = (Button) findViewById(R.id.btn1);
 
         mBtn.setOnClickListener(new View.OnClickListener() {
             @Override
